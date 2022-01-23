@@ -17,7 +17,7 @@ export const links: LinksFunction = () => {
 
 export default function App() {
   return (
-    <Document title="Todos app">
+    <Document>
       <Layout>
         <Outlet />
       </Layout>
@@ -111,11 +111,11 @@ function Layout({ children }: { children: React.ReactNode }) {
       <header>
         <h1>Todos app</h1>
       </header>
-      <main>
-        <div>{children}</div>
-      </main>
+      <main>{children}</main>
       <footer>
-        <p>&copy; Atef Ben Ali!</p>
+        <p>
+          &copy; <a href="https://github.com/atefBB">Atef Ben Ali</a>
+        </p>
       </footer>
     </div>
   );
