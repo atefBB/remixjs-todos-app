@@ -17,11 +17,11 @@ export const loader: LoaderFunction = () => {
         status: "done",
       },
       {
-        task: "Lean Remix",
+        task: "Learn Remix",
         status: "todo",
       },
       {
-        task: "Lean Typescript",
+        task: "Learn Typescript",
         status: "done",
       },
     ],
