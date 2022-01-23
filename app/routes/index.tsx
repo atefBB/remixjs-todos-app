@@ -33,8 +33,8 @@ export const loader: LoaderFunction = () => {
 // https://remix.run/api/conventions#meta
 export const meta: MetaFunction = () => {
   return {
-    title: "Remix Starter",
-    description: "Welcome to remix!",
+    title: "Todos App",
+    description: "Yet another todos app!",
   };
 };
 
